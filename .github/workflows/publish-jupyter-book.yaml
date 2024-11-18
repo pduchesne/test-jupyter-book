@@ -2,19 +2,17 @@ name: deploy-book
 
 # Run this when the master or main branch changes
 on:
-  - push:
-      branches:
-        - master
-        - main
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - main
     # If your git repository has the Jupyter Book within some-subfolder next to
     # unrelated files, you can make this run only if a file within that specific
     # folder has been modified.
     #
-      paths:
-        - ceosbook/**
-  - workflow_dispatch:
-      paths:
-        - ceosbook/**
+    paths:
+      - ceosbook/**
 
 # This job installs dependencies, builds the book, and pushes it to `gh-pages`
 jobs:
