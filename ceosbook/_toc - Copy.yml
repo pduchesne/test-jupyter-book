@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+ - caption: Name of Part 1
+   chapters:
+	- file: thesauri
+ - caption: Name of Part 2
+   chapters:
+   - file: thesauri
+   - file: opensearch_5_outline
+   - file: opensearch_6_idn
+   - file: opensearch_8_fedeo
+   - file: glossary
+   - file: genindex

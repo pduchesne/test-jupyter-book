@@ -1,0 +1,25 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: preface
+parts:
+#  - caption: ESA Thesauri
+#    chapters:
+#    - file: thesauri
+  - caption: WGISS CDA OpenSearch Client Guide
+    chapters:
+    - file: intro
+    - file: scope
+    - file: opensearch_4_before_you_begin
+    - file: opensearch_5_outline
+    - file: opensearch_6_idn
+    - file: opensearch_8_fedeo
+    - file: glossary
+    - file: genindex
+#  - caption: STAC Best Practices
+#    chapters:
+#    - url:  https://github.com/ceos-org/stac-collection-and-granule-discovery-best-practices/blob/main/best-practices.md
+#      title: STAC Best Practices
+#    - url: https://github.com/ceos-org/stac-collection-and-granule-discovery-best-practices/raw/refs/heads/main/introduction.md
+#      title: Introduction
